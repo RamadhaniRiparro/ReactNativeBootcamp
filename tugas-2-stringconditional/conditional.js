@@ -17,3 +17,24 @@ if (nama == "" && peran == "") {
     console.log("Selamat datang di Dunia Werewolf, Ari");
     console.log("Halo Werewolf Ari, Kamu akan memakan mangsa setiap malam!")
 }
+
+/* No 2 Switch Case */
+var tanggal = 1; 
+
+switch(tanggal) {
+    case 1 : { console.log('1'); break; }
+}    
+  
+var bulan = 6;
+
+switch(bulan) {
+    case 6 : { console.log('juni'); break; }
+}
+
+var tahun = 2001;
+
+switch(tahun) {
+    case 2001 : { console.log("2001"); break; }
+}
+    
+
