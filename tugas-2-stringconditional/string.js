@@ -62,10 +62,14 @@ var thirdWord2 = sentence2.substring(15, 17);
 var fourthWord2 = sentence2.substring(18, 20);  
 var fifthWord2 = sentence2.substring(21, 25);  
 
-console.log('First Word: ' + exampleFirstWord2); 
-console.log('Second Word: ' + secondWord2); 
-console.log('Third Word: ' + thirdWord2); 
-console.log('Fourth Word: ' + fourthWord2); 
-console.log('Fifth Word: ' + fifthWord2);
-
-
+var firstWordLength = exampleFirstWord2.length 
+var secondwordlength = secondWord2.length
+var thirdwordlength = thirdWord2.length
+var fourthwordlength = fourthWord2.length
+var fifthwordlength = fifthWord2.length
+// lanjutkan buat variable lagi di bawah ini 
+console.log(' first Word: ' + exampleFirstWord2 + ', with length: ' + firstWordLength); 
+console.log(' second Word: ' + secondWord2 + ', with length: ' + secondwordlength); 
+console.log(' third Word: ' + thirdWord2 + ', with length: ' + thirdwordlength); 
+console.log(' fourth Word: ' + fourthWord2 + ', with length: ' + fourthwordlength); 
+console.log(' fifth Word: ' + fifthWord2 + ', with length: ' + fifthwordlength);

@@ -1,1 +1,0 @@
-sentence[23] + sentence[24] + sentence[25] + sentence[26] + sentence[27] + sentence[28];
