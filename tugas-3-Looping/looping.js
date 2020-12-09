@@ -3,27 +3,33 @@ console.log("LOOPING PERTAMA");
 var angka = 0;
 while(angka < 20){
     angka += 2
-    console.log(angka + " - I love coding")
+    console.log(angka + " - I love coding");
 
 } 
 console.log("LOOPING KEDUA");
 var angka = 22;
 while(angka >= 4){
     angka -= 2
-    console.log(angka + " - I will become a mobile developer")
+    console.log(angka + " - I will become a mobile developer");
 
 } 
+
+console.log ("-------------------------------------------");
+
 /* No. 2 For Looping */
 
-for (var i = 1; i <= 20; i++) {
-    if (i % 3 == 0 || i == 1) {
+for (var i = 1; i < 21; i++) {
+        if (i % 2 != 0 && i % 3 == 0) {
+        console.log(i + " - I Love Coding" );
+}   else if (i % 2 == 1) {
         console.log(i + " - Santai");
-}   else if (i % 2 == 0) {
-        console.log(i + " - Berkualitas");
-}   
+}   else {
+        console.log(i + " - Berkualitas" );
+}
     
 }
 
+console.log ("-------------------------------------------");
 
 /* No. 3 Membuat Persegi Panjang # */
 var a = '';
@@ -35,6 +41,8 @@ for (var b = 1; b < 5; b++) {
 }
 console.log(a);
 
+console.log ("-------------------------------------------");
+
 /* No. 4 Membuat Tangga */
 var a = '';
 for (var b = 1; b < 6; b++) {
@@ -45,6 +53,7 @@ for (var b = 1; b < 6; b++) {
 }
 console.log(a);
 
+console.log ("-------------------------------------------");
 
 /* No. 5 Membuat Papan Catur */
 
