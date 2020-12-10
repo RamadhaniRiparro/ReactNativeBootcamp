@@ -17,7 +17,10 @@ var hasilKali = kalikan(num1, num2)
 console.log(hasilKali) // 48
 
 /* Functions No 3 */
-
+function introduce(name, age, address, hobby) {
+    perkenalan = `Nama saya ${name}, umur saya ${age} tahun, alamat saya di ${address}, dan saya punya hobby yaitu ${hobby}`;
+    return perkenalan
+}
 
 
 var name = "Agus"
@@ -27,5 +30,5 @@ var hobby = "Gaming"
  
 var perkenalan = introduce(name, age, address, hobby)
 console.log(perkenalan) 
-/*Menampilkan "Nama saya Agus, umur saya 30 tahun, alamat saya 
-di Jln. Malioboro, Yogyakarta, dan saya punya hobby yaitu Gaming!" */
+/*Menampilkan !"Nama saya Agus, umur saya 30 tahun, alamat saya 
+di Jln. Malioboro, Yogyakarta, dan saya punya hobby yaitu Gaming" */
