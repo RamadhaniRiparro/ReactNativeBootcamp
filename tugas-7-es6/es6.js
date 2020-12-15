@@ -6,29 +6,22 @@ golden()
 
 console.log("===== 2. Sederhanakan menjadi Object literal di ES6 =====");
 
-const newFunction = function literal(firstName, lastName){
-    return {
-      firstName: firstName,
-      lastName: lastName,
-      fullName: function(){
-        console.log(firstName + " " + lastName)
-        return 
+
+var newFunction = {
+      firstName : "William",
+      lastName : "Imoh",
+      fullName : function() {
+        return  this.firstName + " " + this.lastName
       }
-    }
-  }
+    };
+  
    
   //Driver Code 
-  newFunction("William", "Imoh").fullName()
+console.log(newFunction.fullName());
 
-  const fullName = 'John Doe'
+  
  
-const john = {
-  fullName: fullName
-}
 
-const fullName1 = 'John Doe'
- 
-const johny = {fullName1}
 
 console.log("===== 3. Destructuring =====");
 
@@ -48,7 +41,7 @@ console.log("===== 4. Array Spreading =====");
 
 const west = ["Will", "Chris", "Sam", "Holly"]
 const east = ["Gill", "Brian", "Noel", "Maggie"]
-const combined =  [...west, .....east]
+const combined =  [...west, ...east]
 //Driver Code
 console.log(combined)
 
