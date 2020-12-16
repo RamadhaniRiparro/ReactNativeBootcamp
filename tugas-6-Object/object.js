@@ -1,24 +1,46 @@
-arr = [["Abduh", "Muhammad", "male", 1992], ["Ahmad", "Taufik", "male", 1985]];
+console.log("=== Soal No 1 ===")
 
-function arrayToObject(arr) {
-    for (var i = 0; i < arr.length; i++) {
-        var now = new Date();
-        var thisYear = now.getFullYear();
-        if (arr[i][3] == null || (arr[i][3] > thisYear)) {
-            age = "Invalid birth Year"
+arrayToObject = (arr) => {
+    if (arr.length <= 0) {
+        return console.log("")
+    }
+    for (let i = 0; i < arr.length; i++) {
+        let newObject = {}
+        let birthYear = arr[i][3];
+        let now = new Date().getFullYear()
+        let newAge;
+        if (birthYear && now - birthYear > 0) {
+            newAge = now - birthYear
         } else {
-            age = thisYear- arr[i][3]
+            newAge = "invalid Birth Year"
         }
-        var obj = {
-            firstName : arr[i][0],
-            lastName : arr[i][1],
-            gender : arr[i][2],
-            age : age
-        }
-        console.log(`${obj.firstName} ${obj.lastName} : ${obj}`);
+        newObject.firstName = arr[i][0]
+        newObject.lastName = arr [i][1]
+        newObject.gender = arr[i][1]
+        newObject.age = newAge
+
+        let consoleText = (i + 1) + " . " + newObject.firstName + "" + newObject.lastName + ":"
+        console.log(consoleText);
+        console.log(newObject);
     }
 }
+    
 
-arrayToObject(arr)
-var people = [ ["Bruce", "Banner", "male", 1975], ["Natasha", "Romanoff", "female"] ];
+let people = [ ["Bruce", "Banner", "male", 1975], ["Natasha", "Romanoff", "female"] ];
 arrayToObject(people)
+
+console.log("=== Soal No 2 ===")
+
+shoppingTime = (memberId, money) => {
+    if (!memberID) {
+       return "Mohon maaf, toko X hanya berlaku untuk member saja"
+    } else if {
+        return "Mohon maaf, uang tidak cukup"
+    } else {
+        let newObject = {}
+        let moneychange = money;
+        let purchaseList = []
+        
+        
+    }
+}
