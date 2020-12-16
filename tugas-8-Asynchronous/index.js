@@ -18,4 +18,4 @@ BacaBuku = () => {
     })
 }
 
-console.log(BacaBuku());
+BacaBuku()
